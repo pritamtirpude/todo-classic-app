@@ -2,6 +2,9 @@
 
 A simple and interactive Todo app built with Next.js 14, TypeScript, Zustand for state management, and Framer Motion for animations. This app allows users to manage their daily tasks efficiently with a smooth and responsive user interface.
 
+![Screenshot 2024-08-13 220037](https://github.com/user-attachments/assets/bd178032-ea96-4a70-9c93-3b3463d9339c)
+
+
 ## Features
 
 - **Add Tasks**: Quickly add new tasks to your list.
