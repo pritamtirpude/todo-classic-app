@@ -16,7 +16,7 @@ function FormInput() {
   };
   return (
     <form onSubmit={handleSubmit} className="relative">
-      <span className="absolute left-10 top-1/2  inline-block size-6 -translate-x-1/2 -translate-y-1/2 rounded-full border border-light-veryGrayishBlue dark:border-dark-ultraDarkGrayishBlue"></span>
+      <span className="absolute left-9 top-1/2  inline-block size-6 -translate-x-1/2 -translate-y-1/2 rounded-full border border-light-veryGrayishBlue dark:border-dark-ultraDarkGrayishBlue"></span>
       <input
         type="text"
         onChange={(e) => setTodo(e.target.value)}
