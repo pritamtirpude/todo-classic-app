@@ -108,7 +108,7 @@ function TodoList() {
         )}
         <TodoStatus />
       </div>
-      {filteredTodos?.length > 0 && <MobileStatus />}
+      <MobileStatus />
     </Fragment>
   );
 }
