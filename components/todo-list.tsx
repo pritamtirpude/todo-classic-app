@@ -52,11 +52,11 @@ function TodoList() {
                   exit={{ opacity: 0, y: -30, transition: { duration: 0.25 } }}
                   value={todo}
                   key={todo.id}
-                  className="group/item relative flex cursor-pointer items-center gap-6 border-b border-x-light-veryGrayishBlue px-6 py-5 dark:border-dark-ultraDarkGrayishBlue"
+                  className="group/item relative flex cursor-grabbing items-center gap-6 border-b border-x-light-veryGrayishBlue px-6 py-5 dark:border-dark-ultraDarkGrayishBlue"
                 >
                   <span
                     className={cn(
-                      "size-6 rounded-full flex transition-all justify-center items-center",
+                      "size-6 rounded-full cursor-pointer flex transition-all justify-center items-center",
                       todo.completed
                         ? "bg-gradient-to-br from-gradientOne to-gradientTwo"
                         : "border border-light-veryGrayishBlue dark:border-dark-ultraDarkGrayishBlue hover:border-gradient-to-br from-gradientOne to-gradientTwo"
@@ -83,7 +83,7 @@ function TodoList() {
                   </span>
                   <span
                     className={cn(
-                      "inline-block capitalize text-xs lg:text-lg text-light-veryDarkGrayishBlue dark:text-dark-lightGrayishBlue",
+                      "inline-block capitalize text-xs lg:text-lg text-light-veryDarkGrayishBlue cursor-pointer dark:text-dark-lightGrayishBlue",
                       todo.completed
                         ? "line-through text-light-lightGrayishBlue dark:text-dark-veryDarkGrayishBlue"
                         : ""
